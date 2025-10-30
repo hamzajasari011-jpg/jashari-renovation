@@ -35,6 +35,21 @@ export default function ChantierGembloux2Avant() {
           et préparer une remise en état complète des surfaces afin de retrouver un intérieur sain
           et durable.
         </p>
+        <h2 className="text-2xl font-semibold mb-4 mt-10">Vidéo — Avant rénovation</h2>
+<div className="relative w-full max-w-3xl mx-auto my-8 rounded-xl overflow-hidden shadow-md">
+  <div className="aspect-video">
+    <iframe
+      className="absolute inset-0 w-full h-full"
+      src="https://www.youtube-nocookie.com/embed/vZs3Yg--PBM?rel=0&modestbranding=1&playsinline=1"
+      title="Chantier Gembloux 2 — Avant rénovation"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerPolicy="strict-origin-when-cross-origin"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
+
 
         {/* Galerie photos */}
         <h2 className="text-2xl font-semibold mb-4">Photos — Avant</h2>

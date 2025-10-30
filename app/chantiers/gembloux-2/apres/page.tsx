@@ -39,6 +39,21 @@ export default function Gembloux2Apres() {
   également installé une cuisine sur mesure. Le logement retrouve ainsi des
   parois saines, des finitions durables et un confort d’usage nettement amélioré. 
         </p>
+<h2 className="text-2xl font-semibold mb-4 mt-10">Vidéo — Après rénovation</h2>
+<div className="relative w-full max-w-3xl mx-auto my-8 rounded-xl overflow-hidden shadow-md">
+  <div className="aspect-video">
+    <iframe
+      className="absolute inset-0 w-full h-full"
+      src="https://www.youtube-nocookie.com/embed/AB2lknP3NAQ?rel=0&modestbranding=1&playsinline=1"
+      title="Chantier Gembloux 2 — Après rénovation"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerPolicy="strict-origin-when-cross-origin"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
+
 
         {/* Galerie de photos */}
         <h2 className="text-2xl font-semibold mb-4 text-center">

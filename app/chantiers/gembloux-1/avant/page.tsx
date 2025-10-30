@@ -44,6 +44,21 @@ export default function ChantierGembloux1Avant() {
           inférieurs. Après nettoyage, remise en état et traitements adaptés, la structure
           a été sécurisée pour des finitions durables.
         </p>
+        <h2 className="text-2xl font-semibold mb-4 mt-10">Vidéo — Avant rénovation</h2>
+<div className="relative w-full max-w-3xl mx-auto my-8 rounded-xl overflow-hidden shadow-md">
+  <div className="aspect-video">
+    <iframe
+      className="absolute inset-0 w-full h-full"
+      src="https://www.youtube-nocookie.com/embed/eA5r4FQbjzo?rel=0&modestbranding=1&playsinline=1"
+      title="Chantier Gembloux 1 — Avant rénovation"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerPolicy="strict-origin-when-cross-origin"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
+
 
         {/* Galerie photos */}
         <h2 className="text-2xl font-semibold mb-4">Photos — Avant</h2>
