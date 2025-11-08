@@ -13,8 +13,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "forceConsistentCasingInFileNames": true,
-    "noImplicitAny": false,
-    "suppressImplicitAnyIndexErrors": true
+    "noImplicitAny": false
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
