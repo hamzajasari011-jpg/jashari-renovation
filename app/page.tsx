@@ -1,15 +1,11 @@
 "use client";
-<<<<<<< HEAD
 import { useState } from "react";
-=======
 
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   const SERVICES = [
-<<<<<<< HEAD
   {
     title: "Rénovation intérieure",
     summary:
@@ -106,7 +102,6 @@ export default function Home() {
           </div>
 
           {/* Navigation */}
-=======
     {
       title: "Rénovation intérieure",
       summary:
@@ -203,7 +198,6 @@ export default function Home() {
             />
           </div>
 
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
           <nav className="hidden md:flex items-center gap-6 text-sm">
             <a href="#services" className="hover:text-red-600">Services</a>
             <a href="#projets" className="hover:text-red-600">Réalisations</a>
@@ -218,10 +212,8 @@ export default function Home() {
           </nav>
         </div>
       </header>
-<<<<<<< HEAD
 
       {/* Hero */}
-=======
       {/* BANDEAU TARIFS */}
       <div className="bg-neutral-900 text-white text-center py-3 text-sm font-medium tracking-wide">
         Tarifs transparents & parmi les plus bas du marché —{" "}
@@ -229,7 +221,6 @@ export default function Home() {
       </div>
 
       {/* HERO */}
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
       <section className="relative overflow-hidden">
         <div className="max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-12">
           <div>
@@ -237,7 +228,6 @@ export default function Home() {
               Rénovation générale pour petits et grands projets
             </h1>
             <p className="mt-4 text-neutral-600 text-lg">
-<<<<<<< HEAD
               Entreprise familiale forte de plus de 30 ans d’expérience, Jashari Renovation est
               implantée en Belgique et met à votre service un savoir-faire étendu couvrant
               l’ensemble des métiers du bâtiment. Notre expertise englobe la maçonnerie, le
@@ -248,11 +238,9 @@ export default function Home() {
               l’assurance d’un travail soigné, honnête et fondé sur la confiance mutuelle.
               Notre mission : conjuguer exigence technique et intégrité pour bâtir et rénover
               durablement vos espaces de vie.
-=======
               Entreprise familiale forte de plus de 30 ans d’expérience, Jashari Renovation est implantée en Belgique et met à votre service un savoir-faire étendu couvrant l’ensemble des métiers du bâtiment.
               <br /><br />
               Chaque projet bénéficie d’un devis rapide, précis et adapté à votre budget, avec l’assurance d’un travail soigné, honnête et fondé sur la confiance mutuelle.
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="#devis" className="px-5 py-3 rounded-xl bg-red-600 text-white font-semibold hover:opacity-90">
@@ -263,17 +251,13 @@ export default function Home() {
               </a>
             </div>
           </div>
-<<<<<<< HEAD
-=======
 
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
           <div className="relative">
             <div className="aspect-[4/3] w-full rounded-3xl border bg-[url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop')] bg-cover bg-center shadow-lg" />
           </div>
         </div>
       </section>
 
-<<<<<<< HEAD
       {/* Services */}
       <section id="services" className="bg-neutral-50 border-y">
   <div className="max-w-6xl mx-auto px-4 py-16">
@@ -415,7 +399,6 @@ export default function Home() {
 </section>
 
       {/* Avis */}
-=======
       {/* SERVICES */}
       <section id="services" className="bg-neutral-50 border-y">
         <div className="max-w-6xl mx-auto px-4 py-16">
@@ -530,23 +513,19 @@ export default function Home() {
       </section>
 
       {/* AVIS CLIENTS */}
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
       <section id="avis">
         <div className="max-w-6xl mx-auto px-4 py-16">
           <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight">Avis clients</h2>
           <div className="mt-8 grid md:grid-cols-3 gap-6">
             {[
-<<<<<<< HEAD
               {name:'S. Martin', text:'Travail propre et respect des délais.'},
               {name:'A. Durand', text:'Résultat impeccable pour ma salle de bain.'},
               {name:'M. Lefèvre', text:'Devis rapide et équipe sérieuse.'}
             ].map((a,i)=> (
-=======
               { name: "S. Martin", text: "Travail propre et respect des délais." },
               { name: "A. Durand", text: "Résultat impeccable pour ma salle de bain." },
               { name: "M. Lefèvre", text: "Devis rapide et équipe sérieuse." },
             ].map((a, i) => (
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
               <div key={i} className="p-6 rounded-2xl border bg-white">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-red-600/10 flex items-center justify-center font-bold text-red-600">
@@ -564,11 +543,8 @@ export default function Home() {
         </div>
       </section>
 
-<<<<<<< HEAD
       {/* Bandeau Devis */}
-=======
       {/* BANDEAU DEVIS */}
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
       <section id="devis" className="bg-[#111] text-white">
         <div className="max-w-6xl mx-auto px-4 py-12 md:py-14 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
@@ -576,7 +552,6 @@ export default function Home() {
             <p className="mt-1 text-neutral-300">Décrivez vos travaux, recevez une estimation sous 48h.</p>
           </div>
           <a
-<<<<<<< HEAD
   href="tel:+32493143463"
   className="px-4 py-2 bg-red-600 text-white font-medium hover:opacity-90 rounded-xl"
 >
@@ -586,7 +561,6 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-=======
             href="tel:+32493143463"
             className="px-4 py-2 bg-red-600 text-white font-medium hover:opacity-90 rounded-xl"
           >
@@ -596,7 +570,6 @@ export default function Home() {
       </section>
 
       {/* CONTACT */}
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
       <section id="contact" className="bg-neutral-50 border-t">
         <div className="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10">
           <div>
@@ -609,7 +582,6 @@ export default function Home() {
               <p>📞 +32 4 93 14 34 63</p>
               <p>📞 +32 4 84 12 73 93</p>
               <p>✉️ jasharirenovation@gmail.com</p>
-<<<<<<< HEAD
               <p className="text-sm text-neutral-500">Horaires: 7/7J- 24H</p>
             </div>
           </div>
@@ -657,7 +629,6 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-8 text-sm text-neutral-600">
           <div>
             <p className="font-bold text-[#111]">JASHARI <span className="text-red-600">Renovation</span></p>
-=======
               <p className="text-sm text-neutral-500">Horaires : 7/7J – 24H</p>
             </div>
           </div>
@@ -708,7 +679,6 @@ export default function Home() {
             <p className="font-bold text-[#111]">
               JASHARI <span className="text-red-600">Renovation</span>
             </p>
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
             <p className="mt-2">Entreprise générale – Rénovation complète.</p>
           </div>
           <div>
@@ -730,8 +700,5 @@ export default function Home() {
     </div>
   );
 }
-<<<<<<< HEAD
 
 
-=======
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)

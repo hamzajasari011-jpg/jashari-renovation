@@ -1,13 +1,10 @@
-<<<<<<< HEAD
 import React from "react";
-=======
 "use client";
 
 import { useState } from "react";
 import Image from "next/image";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
 
 export default function ChantierGembloux1Avant() {
   const photosAvant = [
@@ -18,7 +15,6 @@ export default function ChantierGembloux1Avant() {
     "/images/chantiers/gembloux-1/avant5.jpg",
     "/images/chantiers/gembloux-1/avant6.jpg",
     "/images/chantiers/gembloux-1/avant7.jpg",
-<<<<<<< HEAD
   ];
 
   return (
@@ -89,7 +85,6 @@ export default function ChantierGembloux1Avant() {
           ))}
         </div>
 
-=======
     "/images/chantiers/gembloux-1/avant8.jpg",
   ];
 
@@ -176,27 +171,20 @@ export default function ChantierGembloux1Avant() {
           slides={photosAvant.map((src) => ({ src }))}
         />
 
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
         {/* Bouton vers la page "Après" */}
         <div className="mt-8 flex justify-center">
           <a
             href="/chantiers/gembloux-1/apres"
-<<<<<<< HEAD
             className="inline-flex items-center rounded-lg bg-red-600 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-red-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
           >
             Voir après les travaux
-=======
             className="inline-flex items-center rounded-lg bg-neutral-800 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-neutral-700 transition duration-300"
           >
             Voir après les travaux →
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
           </a>
         </div>
       </div>
     </main>
   );
-<<<<<<< HEAD
 }
-=======
 }
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)

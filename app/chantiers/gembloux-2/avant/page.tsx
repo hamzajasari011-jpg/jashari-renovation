@@ -1,13 +1,10 @@
-<<<<<<< HEAD
 import React from "react";
-=======
 "use client";
 
 import { useState } from "react";
 import Image from "next/image";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
 
 export default function ChantierGembloux2Avant() {
   const photosAvant = [
@@ -16,7 +13,6 @@ export default function ChantierGembloux2Avant() {
     "/images/chantiers/gembloux-2/avant3.jpg",
     "/images/chantiers/gembloux-2/avant4.jpg",
     "/images/chantiers/gembloux-2/avant5.jpg",
-<<<<<<< HEAD
   ];
 
   return (
@@ -87,7 +83,6 @@ export default function ChantierGembloux2Avant() {
             className="inline-flex items-center rounded-lg bg-red-600 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-red-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
           >
             Voir après les travaux
-=======
     "/images/chantiers/gembloux-2/avant6.jpg",
   ];
 
@@ -180,14 +175,10 @@ export default function ChantierGembloux2Avant() {
             className="px-4 py-2 bg-neutral-800 text-white rounded-xl text-sm font-medium hover:bg-neutral-700 transition duration-300"
           >
             Voir après rénovation →
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
           </a>
         </div>
       </div>
     </main>
   );
-<<<<<<< HEAD
 }
-=======
 }
->>>>>>> e877e2c (💄 Ajout du bandeau tarifs transparents + amélioration des pages chantiers)
