@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link"; // ✅ Ajout pour la navigation interne
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
@@ -24,12 +25,12 @@ export default function Gembloux2Apres() {
     <main className="min-h-screen bg-neutral-900 text-white px-6 py-10">
       {/* 🔙 Bouton retour */}
       <div className="flex justify-end mb-6">
-        <a
+        <Link
           href="/#projets"
           className="px-4 py-2 bg-red-600 text-white rounded-xl text-sm font-semibold hover:bg-red-700 transition duration-300"
         >
           Retour à l’accueil
-        </a>
+        </Link>
       </div>
 
       <div className="max-w-5xl mx-auto">
@@ -73,7 +74,7 @@ export default function Gembloux2Apres() {
 
         {/* 🖼️ Galerie */}
         <h2 className="text-2xl font-semibold mb-4 text-center">
-          Photos après rénovation
+          Photos — Après rénovation
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -104,12 +105,12 @@ export default function Gembloux2Apres() {
 
         {/* 🔁 Lien vers page "Avant" */}
         <div className="flex justify-center mt-10">
-          <a
+          <Link
             href="/chantiers/gembloux-2/avant"
             className="px-4 py-2 bg-neutral-800 text-white rounded-xl text-sm font-medium hover:bg-neutral-700 transition duration-300"
           >
             ← Voir avant rénovation
-          </a>
+          </Link>
         </div>
       </div>
     </main>
