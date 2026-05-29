@@ -432,7 +432,7 @@ export default function Home() {
                 Intervention rapide 7j/7 – 24h/24
               </span>
               <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight">
-                Dépannage d'urgence
+                Dépannage d&apos;urgence
               </h2>
               <p className="mt-2 text-neutral-400">
                 Un problème urgent ? Nous intervenons rapidement pour limiter les dégâts.
@@ -667,7 +667,7 @@ export default function Home() {
 
           <div className="mt-8 p-6 rounded-2xl bg-red-600/5 border border-red-600/20 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
-              <p className="font-bold text-[#111]">Besoin d'un transport rapide ?</p>
+              <p className="font-bold text-[#111]">Besoin d&apos;un transport rapide ?</p>
               <p className="text-neutral-600 text-sm mt-0.5">Appelez-nous ou envoyez un message — devis gratuit sous 24h.</p>
             </div>
             <a
